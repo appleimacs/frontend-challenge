@@ -2,7 +2,7 @@
 
 This is your take-home challege for the position as a frontend React developer.
 
-Please read this document thoroughly before you get started.
+Please read this README document thoroughly before you get started. There is also documentation for the API itself at `https://swapi.dev/documentation`.
 
 ## The Challenge
 
@@ -35,3 +35,5 @@ You do not need to style the component's rendered output other than to ensure th
 ## Time Spent on this Exercise
 
 You should plan to spend no more than 1 hour on this assignment. Feel free to take some notes around what else you would have done if you had more time, and we can discuss on our next call together.
+
+If you have any questions, reach out to us with questions.
