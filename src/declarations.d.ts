@@ -14,3 +14,16 @@ declare module '*.png' {
   const content: any
   export default content
 }
+
+export interface PlanetType {
+  name: string
+  climate: string
+  population: string
+}
+
+export interface ResponseType {
+  count: number
+  next: string
+  previous: string
+  results: PlanetType[]
+}

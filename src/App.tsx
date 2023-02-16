@@ -1,13 +1,13 @@
 import { Routes, Route } from 'react-router-dom'
 
-import { HelloWorld } from './components'
 import './App.css'
+import Wrapper from './components/wrapper/Wrapper'
 
 function App() {
   return (
-    <div className="container">
+    <div className="container" data-testid="test-container">
       <Routes>
-        <Route path="/*" element={<HelloWorld />} />
+        <Route path="/*" element={<Wrapper />} />
       </Routes>
     </div>
   )
